@@ -21,8 +21,8 @@ public class fgdrggd {
 			
 		}
 	    System.out.println(bos);
-		byte[] result = bos.toByteArray(); // 通过内存输出流把读到的内容放进字节数组
-		String content = new String(result); // 通过字符型的数据存放结果，也就把文件中的内容赋值给了content变量
+		byte[] result = bos.toByteArray(); 
+		String content = new String(result); 
 		System.out.println(content);
 		System.out.println("1111"+content.split("\\=")[1]);
 		
